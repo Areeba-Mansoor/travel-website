@@ -195,6 +195,9 @@ select {
   background-color: #ffffff;
   z-index: 1000;
 }
+.category-card .card .bg-card {
+  z-index: -1;
+}
 .category-card .card img {
   width: 100px;
   height: 80px;
@@ -228,75 +231,64 @@ select {
   width: 40%;
   height: 30%;
   z-index: -1;
-  
 }
 
 /* ------------destination---------- */
-.destinations-sec {
-  width: 100%;
-}
 .destinations {
-  max-width: 1400px;
+  width: 100%;
   margin: auto;
-  padding: 10px;
+  margin-bottom: 40px;
 }
-.destinations p {
-  color: #333;
-  font-size: 18px;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 10px;
-}
-.destinations h1 {
-  font-size: 34px;
-  text-align: center;
-  font-family: serif;
-  margin-top: 10px;
-}
-.destinations-cards {
-  width: 1400px;
+.destination-container {
+  max-width: 1400px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+   position: relative;
 }
-
-.destinations-cards .card {
-  border: none;
-  height: 360px;
-  width: 400px;
+.destination-card {
+  max-width: 300px;
+  min-width: 220px;
+  height: 300px;
+ 
 }
-.destinations-cards img {
-  width: 400px;
+.destination-card img {
+  width: 250px;
+  height: 300px;
 }
-.card-body {
-  width: 267px;
+.destination-box {
+  width: 248px;
+  padding: 10px 20px;
+  height: 100px;
   position: absolute;
   top: 80%;
-  margin-left: 65px;
+  left: 21.8%;
   border-radius: 0 0 25px 25px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgb(147, 147, 147);
 }
-.card-body > div {
+.destination-box > div {
   display: flex;
   justify-content: space-between;
 }
-.card-body img {
+.destination-box > div img {
   width: 20px;
   height: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
-#destination-box {
+.destination-box > div p {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.destination-card .card2 {
   margin-top: 20px;
 }
-#destination-box2 {
+.destination-card .card3 {
   margin-top: 40px;
 }
-.ook-next-trips {
-  width: 50%;
-}
-.book-trip-image {
-  width: 50%;
-}
+
 /* --------book next trip------ */
 .book-trip {
   width: 100%;
@@ -375,7 +367,8 @@ h6 {
 }
 .book-trip-img .icons {
   display: flex;
-  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
 }
 .book-trip-img .icons img {
   width: 25px;
@@ -383,12 +376,13 @@ h6 {
 .book-trip-img .icons #bulid {
   width: 20px;
   height: 20px;
+  margin-bottom: 20px;
 }
 .trip-box {
   width: 250px;
   position: absolute;
   top: 71%;
-  left: 35%;
+  left: 40%;
   padding: 10px;
   display: flex;
   gap: 30px;
@@ -396,7 +390,7 @@ h6 {
   border-radius: 25px;
   background-color: #fafafa;
   border: 1px solid whitesmoke;
-  box-shadow: 0 0 20px rgb(232, 230, 230), 0 -10px 20px gainsboro;
+  box-shadow: 0 0 20px rgb(199, 199, 199), 0 -10px 20px gainsboro;
 }
 .trip-box img {
   width: 50px;
@@ -548,7 +542,7 @@ form input {
 #imgs {
   width: 20px;
   position: absolute;
-  top: 25px;
+  top: 30px;
   left: -50px;
 }
 form button {
@@ -646,10 +640,16 @@ footer {
     width: 100%;
     top: 120%;
   }
-  .destinations-cards {
-    width: 100%;
-    flex-direction: column;
-    gap: 20px;
+  #bulid {
+    width: 100px;
+    height: 20px;
+  }
+  .destination-box {
+    top: 25%;
+    left: 22%;
+  }
+  .destination-container {
+    margin-left: 40px;
   }
   .book-next-trips {
     width: 100%;
