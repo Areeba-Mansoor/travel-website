@@ -237,40 +237,35 @@ select {
 .destinations {
   width: 100%;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 .destination-container {
   max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
   justify-content: center;
-   position: relative;
+  position: relative;
 }
 .destination-card {
   max-width: 300px;
   min-width: 220px;
   height: 300px;
- 
 }
 .destination-card img {
   width: 250px;
   height: 300px;
 }
 .destination-box {
-  width: 248px;
+  width: 249px;
   padding: 10px 20px;
   height: 100px;
   position: absolute;
   top: 80%;
-  left: 21.8%;
+  left: 19.7%;
   border-radius: 0 0 25px 25px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 20px rgb(147, 147, 147);
-}
-.destination-box > div {
-  display: flex;
-  justify-content: space-between;
 }
 .destination-box > div img {
   width: 20px;
@@ -281,6 +276,66 @@ select {
   font-size: 16px;
   color: #333;
   font-weight: 600;
+}
+.destination-box > div {
+  display: flex;
+  justify-content: space-between;
+}
+.destination-box > div p {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.destination-box1 {
+  width: 249px;
+  padding: 10px 20px;
+  height: 100px;
+  position: absolute;
+  top: 80%;
+  left: 41%;
+  border-radius: 0 0 25px 25px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgb(147, 147, 147);
+}
+.destination-box1 > div img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.destination-box1 > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destination-box1 > div img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.destination-box1 > div p {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.destination-box2 {
+  width: 249px;
+  padding: 10px 20px;
+  height: 100px;
+  position: absolute;
+  top: 80%;
+  left: 62.5%;
+  border-radius: 0 0 25px 25px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgb(147, 147, 147);
+}
+.destination-box2 > div img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.destination-box2 > div {
+  display: flex;
+  justify-content: space-between;
 }
 .destination-card .card2 {
   margin-top: 20px;
@@ -585,6 +640,11 @@ footer {
 }
 .footer-box > div {
   display: flex;
+  gap: 10px;
+}
+.footer-content .foot{
+  margin-left: 600px;
+
 }
 @media (max-width: 768px) {
   .logo {
@@ -650,6 +710,14 @@ footer {
   }
   .destination-container {
     margin-left: 40px;
+  }
+  .destination-box1 {
+    top: 60%;
+    left: 22%;
+  }
+  .destination-box2{
+    top: 95%;
+    left: 22%;
   }
   .book-next-trips {
     width: 100%;
@@ -750,16 +818,30 @@ footer {
   }
   .footer-content {
     width: 100%;
-    padding: 20px;
+  
   }
   .footer-box {
     width: 100%;
     padding: 20px;
+  
+  }
+  .footer-box img{
+    margin-left: 20px;
   }
   .footer-box p {
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
   }
   .footer-box1 {
     width: 100%;
+    padding: 20px;
+
   }
+  .footer-box1 li{
+    margin-right: 30px;
+  }
+  .footer-content .foot{
+    margin-left: 10px;
+  }
+  
 }
