@@ -11,7 +11,6 @@ body {
 
 header {
   width: 100%;
-
   background-color: #ec5858;
 }
 
@@ -50,12 +49,12 @@ header {
 }
 
 .nav-links a:hover {
-  color: rgb(39, 186, 31);
+  color: rgb(219, 36, 30);
   border-bottom: 2px solid rgb(44, 71, 24);
 }
 
 .sign-btn {
-  padding: 8px 20px;
+  padding: 5px 15px;
   border-radius: 3px;
   border: none;
   background-color: #fff;
@@ -64,6 +63,7 @@ header {
   white-space: pre;
   margin-right: 0.8em;
   cursor: pointer;
+  border: 1px solid grey;
   transition: tranform 0.5s ease;
 }
 
@@ -642,9 +642,8 @@ footer {
   display: flex;
   gap: 10px;
 }
-.footer-content .foot{
+.footer-content .foot {
   margin-left: 600px;
-
 }
 @media (max-width: 768px) {
   .logo {
@@ -715,7 +714,7 @@ footer {
     top: 60%;
     left: 22%;
   }
-  .destination-box2{
+  .destination-box2 {
     top: 95%;
     left: 22%;
   }
@@ -776,7 +775,21 @@ footer {
   }
   .inner-box {
     width: 330px;
-    top: 100%;
+    top: 95%;
+  }
+  .form-bg img {
+    width: 360px;
+    height: 300px;
+  }
+  .form-bg {
+    margin-left: 0;
+  }
+  #group {
+    width: 40px;
+  }
+  #imgs {
+    width: 15px;
+    height: 12px;
   }
   #arrow {
     display: none;
@@ -818,30 +831,34 @@ footer {
   }
   .footer-content {
     width: 100%;
-  
   }
   .footer-box {
     width: 100%;
     padding: 20px;
-  
   }
-  .footer-box img{
-    margin-left: 20px;
+  .footer-box img {
+    margin-left: 30px;
   }
   .footer-box p {
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  .footer-box1 p {
+    margin-left: 30px;
     margin-top: 5px;
   }
   .footer-box1 {
     width: 100%;
     padding: 20px;
-
   }
-  .footer-box1 li{
+
+  .social-icons img {
+    width: 50px;
+  }
+  .footer-box1 li {
     margin-right: 30px;
   }
-  .footer-content .foot{
+  .footer-content .foot {
     margin-left: 10px;
   }
-  
 }
