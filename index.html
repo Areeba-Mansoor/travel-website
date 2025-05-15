@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Travel Landing Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -30,8 +29,7 @@
                     <li><a href="#pricing">Pricing</a></li>
                 </ul>
 
-                <button class="sign-btn">Sign up <i class="fa-solid fa-arrow-right"
-                        style="color: #ffffff;"></i></button>
+                <button class="sign-btn">Sign up</button>
 
                 <select>
                     <option value="EN">En</option>
@@ -45,7 +43,7 @@
     <!-- ------hero section------- -->
     <section class="hero-section">
         <div class="hero-container">
-            <div class="hero-text">
+            <div class="hero-text" data-aos="fade-right">
                 <p style="font-weight: 600; color: #DF6951; font-size: 20px;">Best Destinations around the world</p>
                 <h1>Travel, enjoy
                     and live a new
@@ -59,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="trevel">
+            <div class="trevel"  data-aos="fade-down">
                 <img src="./assets/Decore.png" alt="">
                 <div class="travels-img">
                     <img src="./assets/Image.png" alt="">
@@ -70,7 +68,7 @@
 
     <!-- -----------Category---------- -->
 
-    <section class="category--sec">
+    <section class="category--sec" data-aos="fade-up">
         <div class="categorys">
             <p>Category</p>
             <h1>We Offer Best Services</h1>
@@ -88,7 +86,7 @@
                 <!-- ----------category-card-2--------- -->
                 <div class="category-card">
                     <div class="card">
-                    
+
                         <img src="./assets/Group 51.png" alt="" width="100px">
                         <h4>Calculated Weather </h4>
                         <p>Built Wicket longer admire do barton vanity itself do in it.</p>
@@ -125,54 +123,54 @@
         <div class="destination-container">
 
             <!-- -----card1---- -->
-            <div class="destination-card">
+            <div class="destination-card" >
                 <img src="./assets/destination1.jpg" alt="">
             </div>
-             <div class="destination-box">
-                        <div>
-                            <p>Rome, Italy</p>
-                            <p>$5,42k</p>
-                        </div>
-                        <div>
-                            <img src="./assets/Navigation.png" alt="">
-                            <p>10 Days Trips</p>
-                        </div>
-                    </div>
-           
-                <div class="destination-card" style="margin-top: 20px;">
-                    <div>
-                        <img src="./assets/destination2.jpg" alt="">
-                    </div>
+            <div class="destination-box">
+                <div>
+                    <p>Rome, Italy</p>
+                    <p>$5,42k</p>
                 </div>
-                <div class="destination-box1">
-                        <div>
-                            <p>Rome, Italy</p>
-                            <p>$5,42k</p>
-                        </div>
-                        <div>
-                            <img src="./assets//Navigation.png" alt="">
-                            <p>15 Days Trips</p>
-                        </div>
-                    </div>
-
-                <div class="destination-card">
-                    <div class="card3">
-                        <img src="./assets/destination3.jpg" alt="">
-                    </div>
-
+                <div>
+                    <img src="./assets/Navigation.png" alt="">
+                    <p style="font-weight: 500;">10 Days Trips</p>
                 </div>
-                  <div class="destination-box2">
-                        <div>
-                            <p>Rome, Italy</p>
-                            <p>$5,42k</p>
-                        </div>
-                        <div>
-                            <img src="./assets//Navigation.png" alt="">
-                            <p>28 Days Trips</p>
-                        </div>
-                 </div>
-                 
             </div>
+
+            <div class="destination-card" style="margin-top: 20px;">
+                <div>
+                    <img src="./assets/destination2.jpg" alt="">
+                </div>
+            </div>
+            <div class="destination-box1">
+                <div>
+                    <p>Rome, Italy</p>
+                    <p>$5,42k</p>
+                </div>
+                <div>
+                    <img src="./assets//Navigation.png" alt="">
+                    <p style="font-weight: 500;">15 Days Trips</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="card3">
+                    <img src="./assets/destination3.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="destination-box2">
+                <div>
+                    <p>Rome, Italy</p>
+                    <p>$5,42k</p>
+                </div>
+                <div>
+                    <img src="./assets//Navigation.png" alt="">
+                    <p style="font-weight: 500;">28 Days Trips</p>
+                </div>
+            </div>
+
+        </div>
 
         </div>
     </section>
@@ -181,7 +179,7 @@
     <section class="book-trip">
         <div class="next-trip">
 
-            <div class="book-next-trips">
+            <div class="book-next-trips" data-aos="fade-right">
                 <p>Easy and Fast</p>
                 <h2>Book your next trip
                     in 3 easy steps</h2>
@@ -216,16 +214,16 @@
 
 
             </div>
-            <div class="book-trip-image">
+            <div class="book-trip-image" data-aos="fade-up">
                 <div class="book-trip-img">
                     <div>
                         <img src="./assets/Rectangle 17.jpg" alt="">
                         <h6>Trip To Greece</h6>
                         <p>14-29 June | by Robbin joseph</p>
                         <div class="icons">
-                            <img src="./assets/leaf 1.png" alt=""  id="bulid">
+                            <img src="./assets/leaf 1.png" alt="" id="bulid">
                             <img src="./assets/map icon.png" alt="" id="bulid">
-                            <img src="./assets/send.png" alt=""  id="bulid">
+                            <img src="./assets/send.png" alt="" id="bulid">
                         </div>
                         <div class="icons" style="margin-top: 10px;">
                             <img src="./assets/building 1.png" alt="" id="bulid">
@@ -249,7 +247,7 @@
 
     <!-- ---------testimonials---------- -->
     <section class=testimonials>
-        <div class="testimonials-container">
+        <div class="testimonials-container" data-aos="zoom-in">
             <div class="testimonials-box">
                 <p style="font-size: 18px; font-weight: 600;">Testimonials</p>
                 <h2>What people say
@@ -264,7 +262,7 @@
                                 same as
                                 knew next. Of believed or diverted no.”</q></p>
                         <h6>Mike taylor</h6>
-                        <p>Lahore, Pakistan</p>
+                        <p style="margin-top: 5px;">Lahore, Pakistan</p>
                     </div>
 
                 </div>
@@ -293,7 +291,7 @@
     <!-- --------form-section-------- -->
     <section class="form">
         <div class="form-bg">
-            <img src="./assets/Rectangle 164.png" alt="">
+            <img src="./assets/Rectangle 164.png" alt="" id="bg-image">
             <h3>Subscribe to get information, latest news and other
                 interesting offers about Jadoo</h3>
             <form action="">
@@ -333,7 +331,7 @@
                 </div>
 
                 <div class="footer-box1">
-                    <p >More</p>
+                    <p>More</p>
                     <ul>
                         <li>Airlinefees</li>
                         <li>Airline</li>
@@ -346,7 +344,7 @@
                         <img src="./assets/Social (1).png" alt="">
                         <img src="./assets/Social (2).png" alt="">
                     </div>
-                    <p style="margin-left: 10px; color: #333;">Discover our app</p>
+                    <p style="margin-left: 10px; color: #333; margin-bottom: 10px;">Discover our app</p>
                     <div id="card">
                         <img src="./assets/Google Play.png" alt="">
                         <img src="./assets/Play Store.png" alt="" srcset="">
@@ -358,9 +356,15 @@
 
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
+    <!-- -----------aos--------- -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+          offset: 300,
+           duration: 1100
+    });
+  </script>
 </body>
 
 </html>
