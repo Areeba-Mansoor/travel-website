@@ -242,14 +242,27 @@ select {
   width: 100%;
   margin: auto;
   margin-bottom: 100px;
+  margin-top: 20px;
 }
 .destination-container {
   max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
   gap: 80px;
   justify-content: center;
   position: relative;
+}
+.destinations p {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+.destinations h1 {
+  font-size: 34px;
+  font-family: serif;
+  text-align: center;
+  margin-top: 10px;
 }
 .destination-card {
   max-width: 300px;
@@ -258,7 +271,7 @@ select {
   transition: all 0.5s;
 }
 .destination-card:hover {
-  transform: translateY(-18%);
+  transform: translateY(-15%);
   cursor: pointer;
 }
 .destination-card img {
@@ -266,22 +279,22 @@ select {
   height: 320px;
 }
 .destination-box {
-  width: 250px;
+  width: 249px;
   padding: 10px 20px;
-  height: 100px;
+  height: 110px;
   position: fixed;
   position: absolute;
   top: 77%;
-  left: 17.5%;
+  left: 19.65%;
   border-radius: 0 0 25px 25px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 20px rgb(147, 147, 147);
+  box-shadow: 0 0 10px rgb(126, 148, 209);
 }
 
 .destination-box > div img {
   width: 20px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 .destination-box > div p {
   font-size: 16px;
@@ -291,6 +304,7 @@ select {
 .destination-box > div {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 .destination-box > div p {
   font-size: 16px;
@@ -299,12 +313,12 @@ select {
   font-weight: 600;
 }
 .destination-box1 {
-  width: 250px;
+  width: 249px;
   padding: 10px 20px;
-  height: 100px;
+  height: 110px;
   position: fixed;
   position: absolute;
-  top: 85%;
+  top: 78%;
   left: 41.1%;
   border-radius: 0 0 25px 25px;
   background-color: rgb(255, 255, 255);
@@ -317,12 +331,13 @@ select {
 .destination-box1 > div {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .destination-box1 > div img {
   width: 20px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 .destination-box1 > div p {
   font-size: 16px;
@@ -331,13 +346,13 @@ select {
   font-weight: 600;
 }
 .destination-box2 {
-  width: 251px;
+  width: 249px;
   padding: 10px 20px;
-  height: 100px;
+  height: 110px;
   position: fixed;
   position: absolute;
-  top: 90%;
-  left: 64.6%;
+  top: 78%;
+  left: 62.5%;
   border-radius: 0 0 25px 25px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 20px rgb(147, 147, 147);
@@ -345,7 +360,7 @@ select {
 .destination-box2 > div img {
   width: 20px;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 .destination-box2 > div {
   display: flex;
@@ -357,11 +372,12 @@ select {
   margin-top: 15px;
   font-weight: 600;
 }
-.destination-card .card2 {
-  margin-top: 20px;
-}
-.destination-card .card3 {
-  margin-top: 40px;
+#ring{
+  width: 70px;
+  position: absolute;
+  bottom: 50%;;
+  left: 89%;
+  z-index: -1;
 }
 
 /* --------book next trip------ */
@@ -538,19 +554,19 @@ h6 {
   padding: 5px 20px;
   position: absolute;
   top: 95%;
-  height: 120px;
+  height: 130px;
   background-color: rgb(255, 255, 255);
   z-index: -1;
-  margin-left: 80px;
+  margin-left: 90px;
   border-radius: 10px;
   border: 1px solid ghostwhite;
   box-shadow: 0 0 10px rgb(141, 127, 197);
 }
 .inner-box h6 {
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
-.inner-box p{
+.inner-box p {
   margin-top: 5px;
   font-size: 14px;
 }
@@ -630,7 +646,7 @@ form {
 }
 form input {
   width: 300px;
-  height: 42px;
+  height: 38px;
   border-radius: 5px;
   border: 1px solid ghostwhite;
   background-color: #f6f5f5;
@@ -654,7 +670,7 @@ form button {
 /* -------------footer------------ */
 footer {
   width: 100%;
-  background-color: #fcf0e4;
+  background-color: #fef8f1;
 }
 .footer-content {
   max-width: 1400px;
@@ -741,7 +757,7 @@ footer {
   .hero-container .trevel {
     width: 100%;
   }
-  .hero-text .btns{
+  .hero-text .btns {
     margin-left: 30px;
   }
   .hero-container .trevel img {
@@ -761,19 +777,25 @@ footer {
     height: 20px;
   }
   .destination-box {
-    top: 25%;
-    left: 22%;
+    top: 22%;
+    left: 23.8%;
   }
   .destination-container {
-    margin-left: 40px;
+    margin-left: 10px;
+  }
+  .destination-card {
+    height: 250px;
+  }
+  .destination-card img{
+    height: 270px;
   }
   .destination-box1 {
-    top: 60%;
-    left: 22%;
+    top: 58%;
+    left: 24%;
   }
   .destination-box2 {
-    top: 99%;
-    left: 22%;
+    top: 95%;
+    left: 23.8%;
   }
   .book-next-trips {
     width: 100%;
@@ -821,16 +843,15 @@ footer {
     padding: 20px;
     height: 250px;
   }
- 
+
   .outer-box h6 {
     font-size: 16px;
     margin-top: 20px;
   }
   .inner-box {
     width: 330px;
+    margin-left: 75px;
     top: 100%;
-    
-    
   }
   .form-bg img {
     width: 360px;
@@ -893,6 +914,7 @@ footer {
   }
   .footer-content {
     width: 100%;
+    padding: 10px 50px;
   }
   .footer-box {
     width: 100%;
